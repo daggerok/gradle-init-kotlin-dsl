@@ -1,6 +1,6 @@
-=
+= Gradle Kotlin DSL image:https://travis-ci.org/daggerok/gradle-init-kotlin-dsl.svg?branch=master["Build Status", link="https://travis-ci.org/daggerok/gradle-init-kotlin-dsl"]
 
-.initialize java app with kotlin DSL
+.initialize Java app with kotlin DSL using Gradle
 ----
 gradle wrapper --gradle-version=4.6
 ./gradlew init --type java-application --dsl kotlin
@@ -8,15 +8,19 @@ gradle wrapper --gradle-version=4.6
 
 available types:
 
-. pom
-. basic
-. groovy-application
-. groovy-library
-. java-application
-. java-library
-. scala-library
+- pom
+- basic
+- groovy-application
+- groovy-library
+- java-application
+- java-library
+- scala-library
 
 available DSLs:
 
-. kotlin
-. groovy
+- kotlin
+- groovy
+
+links:
+
+. link:https://www.youtube.com/watch?v=bhUy6JrSSr8[An introduction to Gradle and its Kotlin DSL | Gradle & Kotlin DSL]

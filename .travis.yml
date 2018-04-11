@@ -8,13 +8,12 @@ jdk: oraclejdk8
 install: true
 
 script:
-
 - mkdir my-app
 - cd my-app/
 - gradle wrapper --gradle-version=4.6
-- ./gradlew init --type=java-application --dsl kotlin
-- ./gradlew clean build
-- java -jar build/libs/*.jar
+- bash gradlew init --type=java-application --dsl kotlin
+- bash gradlew clean build
+- java -cp build/libs/*.jar App
 
 cache:
   directories:
