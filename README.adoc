@@ -1,0 +1,22 @@
+=
+
+.initialize java app with kotlin DSL
+----
+gradle wrapper --gradle-version=4.6
+./gradlew init --type java-application --dsl kotlin
+----
+
+available types:
+
+. pom
+. basic
+. groovy-application
+. groovy-library
+. java-application
+. java-library
+. scala-library
+
+available DSLs:
+
+. kotlin
+. groovy
