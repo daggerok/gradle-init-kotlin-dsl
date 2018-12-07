@@ -24,3 +24,4 @@ available DSLs:
 links:
 
 . link:https://www.youtube.com/watch?v=bhUy6JrSSr8[An introduction to Gradle and its Kotlin DSL | Gradle & Kotlin DSL]
+- link:https://www.youtube.com/watch?v=zYNbsVv9oN0[Kotlin DSL]
